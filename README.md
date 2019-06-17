@@ -1,6 +1,6 @@
 # PersonsAndColors
 
-This project is one example of solution to a exercise passed to the team. The goal of the exercise is to create an angular project to manage users, colours and users' favourite colour. This is part of a series of Angular Workshops I've doing with my team. The goal of the workshops is to improve the team's skills in Angular and Spring, technologies that will be used in the new projects.
+This project is one example of solution to a exercise passed to the team. The goal of the exercise is to create an angular project to manage persons, colors and persons' favourite colors. This is part of a series of Angular Workshops I've doing with my team. The goal of the workshops is to improve the team's skills in Angular and Spring, technologies that will be used in the new projects.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
