@@ -8,3 +8,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Tags
+
+Use 'git checkout t*' to see any tag below:
+
+t1 -> Initial project, tagged right after the command 'ng new <project-name>'.
+  
+t2 -> Added Shared and Core modules plus a few template components like app-button and app-panel. A draft of the application's template has been developed.
+
+t3 -> Added feature modules, Persons and Colors. Lazy loading routing has been implemented for the modules added.
