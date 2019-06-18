@@ -1,0 +1,16 @@
+div.topbar {
+  background-color: #0e6e75;
+  margin: 0;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0px 4px 10px #bdbcbc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  > *:not(.flex1) {
+    flex: 0 0 auto;
+  }
+}
