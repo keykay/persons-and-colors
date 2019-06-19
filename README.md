@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Go to /restApi and run `npm start` for a rest api server at port 3000. (From tag t4)
+Go to /restApi and run `npm start` for a rest api server on port 3000. (From tag t4)
 
 ## Tags
 
