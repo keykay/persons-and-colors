@@ -1,9 +1,12 @@
 <app-topbar>
   <app-topbar-title>P&C</app-topbar-title>
   <app-topbar-menu>
-    <app-button color="primary" value="Home"></app-button>
-    <app-button color="primary" value="Persons"></app-button>
-    <app-button color="primary" value="Colors"></app-button>
+    <app-button color="primary" value="Home" [routerLink]="['/']" [routerLinkActive]="'active-route'"
+      [routerLinkActiveOptions]="{exact: true}"></app-button>
+    <app-button color="primary" value="Persons" [routerLink]="['/persons']" [routerLinkActive]="'active-route'"
+      [routerLinkActiveOptions]="{exact: true}"></app-button>
+    <app-button color="primary" value="Colors" [routerLink]="['/colors']" [routerLinkActive]="'active-route'"
+      [routerLinkActiveOptions]="{exact: true}"></app-button>
   </app-topbar-menu>
 </app-topbar>
 

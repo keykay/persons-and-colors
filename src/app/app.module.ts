@@ -11,9 +11,8 @@ import { HomeComponent } from './core/components/home/home.component';
 import { CoreModule } from './core/core.module';
 
 const ROUTES: Routes = [
-  // { path: 'persons', loadChildren: './persons/persons.module#PersonsModule' },
-  // { path: 'colors', loadChildren: './colors/colors.module#ColorsModule' },
-  // { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
+  { path: 'persons', loadChildren: './persons/persons.module#PersonsModule' },
+  { path: 'colors', loadChildren: './colors/colors.module#ColorsModule' },
   { path: 'example', component: ExampleComponent },
   { path: '', component: HomeComponent },
   { path: '**', component: ErrorComponent }
