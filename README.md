@@ -16,4 +16,4 @@ t1 -> Initial project, tagged right after the command 'ng new <project-name>'.
   
 t2 -> Added Shared and Core modules plus a few template components like app-button and app-panel. A draft of the application's template has been developed.
 
-t3 -> Added feature modules, Persons and Colors. Lazy loading routing has been implemented for the modules added.
+t3 -> Added feature modules, Persons and Colors. Lazy loading routing has been implemented for the modules added. Added a few feature components to manage lists and details.
