@@ -1,0 +1,169 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PersonsAndColors",
+		"_postman_id": "d5e76f37-41bc-aae3-828e-189dfb494a84",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Person",
+			"description": "",
+			"item": [
+				{
+					"name": "[Retrieve] Persons",
+					"request": {
+						"url": "localhost:3000/persons",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Retrieve] Person",
+					"request": {
+						"url": "localhost:3000/persons/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Create] Person",
+					"request": {
+						"url": "localhost:3000/persons",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"firstName\": \"Chuck\",\n\t\"lastName\": \"Norris\",\n\t\"age\": 62,\n\t\"favoriteColorId\": null\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Update] Person",
+					"request": {
+						"url": "localhost:3000/persons/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"firstName\": \"Chuck\",\n\t\"lastName\": \"Norris\",\n\t\"age\": 63,\n\t\"favoriteColorId\": 1\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Delete] Person",
+					"request": {
+						"url": "localhost:3000/persons/15",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Color",
+			"description": "",
+			"item": [
+				{
+					"name": "[Retrieve] Colors",
+					"request": {
+						"url": "localhost:3000/colors",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Retrieve] Color",
+					"request": {
+						"url": "localhost:3000/colors/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Create] Color",
+					"request": {
+						"url": "localhost:3000/colors",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Red\",\n\t\"hex\": \"#FF0000\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Update] Color",
+					"request": {
+						"url": "localhost:3000/colors/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"White\",\n\t\"hex\": \"#FFFFFF\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "[Delete] Color",
+					"request": {
+						"url": "localhost:3000/colors/7",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
